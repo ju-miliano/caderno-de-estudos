@@ -8,7 +8,7 @@ cobertura_tinta = 3
 capacidade_lata = 18
 preco_lata = 80.0
 
-tamanho_area = float(input("Digite em metros quadrados o valor em m³ da área a ser pintada:"))
+tamanho_area = float(input("Digite em metros quadrados(m²) o valor da área a ser pintada:"))
 
 litros = tamanho_area/cobertura_tinta
 latas_inteiras = int(litros/capacidade_lata)
